@@ -557,7 +557,7 @@
 	<SDL2/SDL_image.h>
 	<iostream>
 
-1431738063 source:/home/turupawn/Clases/Progra3/SDL2TestSimple-master/main.cpp
+1432342138 source:/home/turupawn/Clases/Progra3/SDL2TestSimple-master/main.cpp
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 	<iostream>
@@ -565,22 +565,25 @@
 	"Jugador.h"
 	"Enemigo.h"
 
-1431738337 source:/home/turupawn/Clases/Progra3/SDL2TestSimple-master/Enemigo.cpp
+1432340073 source:/home/turupawn/Clases/Progra3/SDL2TestSimple-master/Enemigo.cpp
 	"Enemigo.h"
 
-1431736145 /home/turupawn/Clases/Progra3/SDL2TestSimple-master/Enemigo.h
+1432338388 /home/turupawn/Clases/Progra3/SDL2TestSimple-master/Enemigo.h
 	"Personaje.h"
 
-1431734730 /home/turupawn/Clases/Progra3/SDL2TestSimple-master/Personaje.h
+1432338388 /home/turupawn/Clases/Progra3/SDL2TestSimple-master/Personaje.h
 	<SDL2/SDL.h>
 	<SDL2/SDL_image.h>
 
-1431733582 source:/home/turupawn/Clases/Progra3/SDL2TestSimple-master/Personaje.cpp
+1432335549 source:/home/turupawn/Clases/Progra3/SDL2TestSimple-master/Personaje.cpp
 	"Personaje.h"
 
-1431736564 source:/home/turupawn/Clases/Progra3/SDL2TestSimple-master/Jugador.cpp
+1432340196 source:/home/turupawn/Clases/Progra3/SDL2TestSimple-master/Jugador.cpp
 	"Jugador.h"
 
-1431735316 /home/turupawn/Clases/Progra3/SDL2TestSimple-master/Jugador.h
+1432339276 /home/turupawn/Clases/Progra3/SDL2TestSimple-master/Jugador.h
 	"Personaje.h"
+	<vector>
+	<list>
+	<iostream>
 

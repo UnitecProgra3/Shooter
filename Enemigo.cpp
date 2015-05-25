@@ -6,7 +6,7 @@ Enemigo::Enemigo(SDL_Renderer* renderer)
     int w,h;
     textura = IMG_LoadTexture(renderer, "enemigo.png");
     SDL_QueryTexture(textura, NULL, NULL, &w, &h);
-    rect_textura.x = 0;
+    rect_textura.x = 200;
     rect_textura.y = 100;
     rect_textura.w = w;
     rect_textura.h = h;
@@ -26,7 +26,7 @@ void Enemigo::dibujar()
 
 void Enemigo::logica()
 {
-    rect_textura.x+=10;
+    rect_textura.y+=1;
 }
 
 Enemigo::~Enemigo()

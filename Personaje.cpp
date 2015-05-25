@@ -2,7 +2,7 @@
 
 Personaje::Personaje()
 {
-    //ctor
+    frame=0;
 }
 
 Personaje::~Personaje()

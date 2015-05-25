@@ -2,18 +2,24 @@
 #define JUGADOR_H
 
 #include "Personaje.h"
+#include <vector>
+#include <list>
+#include <iostream>
+
+using namespace std;
 
 class Jugador : public Personaje
 {
     public:
-        SDL_Texture *textura, *textura_bala;
-        SDL_Rect rect_textura, rect_bala;
-        SDL_Renderer *renderer;
+        vector<SDL_Rect> rect_balas;
+        list<Personaje*>*personajes;
+        int velocidad;
+        int velocidad_bala;
 
         void dibujar();
         void logica();
 
-        Jugador(SDL_Renderer *renderer);
+        Jugador(SDL_Renderer *renderer,list<Personaje*>*personajes);
         virtual ~Jugador();
     protected:
     private:
